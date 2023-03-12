@@ -17,7 +17,7 @@ import discord4j.core.shard.GatewayBootstrap;
 import discord4j.gateway.GatewayOptions;
 
 @Configuration
-public class BotConfiguration {
+public class DiscordConfiguration {
 
   @Value("${discord.token}")
   private String token;
